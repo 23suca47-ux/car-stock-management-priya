@@ -21,3 +21,5 @@ jobs:
 
       - name: Build and analyze
         run: mvn -B verify sonar:sonar
+        env:
+         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
