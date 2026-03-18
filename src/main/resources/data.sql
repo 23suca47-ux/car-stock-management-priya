@@ -1,0 +1,15 @@
+INSERT INTO car (brand, model, price, quantity) VALUES ('Hyundai', 'Creta', 1500000, 5);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Toyota', 'Innova', 2000000, 3);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Honda', 'City', 1200000, 7);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Tata', 'Nexon', 1000000, 6);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Mahindra', 'XUV700', 2200000, 4);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Kia', 'Seltos', 1400000, 8);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Skoda', 'Slavia', 1300000, 2);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Volkswagen', 'Virtus', 1350000, 5);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Renault', 'Kiger', 950000, 9);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Nissan', 'Magnite', 900000, 10);
+INSERT INTO car (brand, model, price, quantity) VALUES ('BMW', 'X1', 4500000, 2);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Audi', 'A4', 4800000, 1);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Mercedes', 'C-Class', 5500000, 2);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Hyundai', 'i20', 850000, 12);
+INSERT INTO car (brand, model, price, quantity) VALUES ('Maruti', 'Swift', 750000, 15);

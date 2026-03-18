@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Stock Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 class="main-title">🚗 Car Stock Management</h1>
+
+    <!-- FORM SECTION -->
+    <div class="form-section">
+
+        <input type="hidden" id="carId">
+
+        <input type="text" id="brand" placeholder="Car Brand">
+        <input type="text" id="model" placeholder="Car Model">
+        <input type="number" id="price" placeholder="Price">
+        <input type="number" id="quantity" placeholder="Quantity">
+
+        <button id="saveBtn" onclick="saveCar()">Add Car</button>
+
+    </div>
+
+    <!-- TABLE SECTION -->
+    <div class="table-section">
+
+        <h2 class="list-title">Car List</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="carTableBody">
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
